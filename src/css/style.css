@@ -1,0 +1,40 @@
+body {
+  background: #ffffff;
+}
+
+#banner {
+  background-image: url(../assets/banner_pizza.png);
+  background-size: cover;
+}
+
+.h-text {
+  padding: 10%;
+}
+
+.my-header .my-navbar {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+/*
+.my-navbar{
+  background-color: transparent !important;
+}*/
+/*
+#legenda-banner {
+  position: absolute;
+  color: #ffffff;
+  top: 22%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#banner {
+  position: absolute;
+  z-index: -22;
+  top: 0;
+}
+
+.my-header .my-navbar {
+  background: rgba(0, 0, 0, 0.8) !important;
+}*/
