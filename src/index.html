@@ -100,27 +100,38 @@
                     quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
                 </P>
             </div>
-            <div class="my-5">
-                <h2 class="font-weight-bold" id="portifolio">PORTIFÓLIO</h2>
-                <p class="text-justify my-5">
-                    Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000
-                    anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC.
-                    Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das
-                    mais
-                    obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por
-                    entre
-                    citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das
-                    seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de
-                    Cícero,
-                    escrito em 45 AC. Este livro é um tratado de teoria da ética muito popular na época da Renascença. A
-                    primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.
+            <div id="slide">
+                <h2 class="font-weight-bold ml-1 mb-3" id="portifolio">PORTIFÓLIO</h2>
+                <div id="carouselSite" class="carousel slide col-8 ml-n2" data-ride="carousel">
+                    <ol class="carousel-indicators mb-n5">
+                        <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselSite" data-slide-to="1"></li>
+                        <li data-target="#carouselSite" data-slide-to="2"></li>
+                    </ol>
+                    <div class="slidesSite carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img1.jpg" class="img-fluid d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="text-dark ml-n5 mb-n5 text-left">Legenda 1</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img2.png" class="img-fluid d-block">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img3.jpg" class="img-fluid d-block">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
 
-                    O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os
-                    interessados. Seções 1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" de Cicero também foram
-                    reproduzidas abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução
-                    feita
-                    por H. Rackham em 1914.
-                </p>
             </div>
             <div class="my-5">
                 <h2 class="font-weight-bold" id="promocoes">PROMOÇÕES</h2>
@@ -179,6 +190,7 @@
                 </p>
             </div>
         </div>
+
         <!-- 
             <figure class="figure">
                 <img class="d-block img-fluid" id="banner" src="assets/banner_pizza.png" alt="Banner Pizza">
@@ -192,20 +204,20 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <!--<script src="/node_modules/jquery/dist/jquery.js"></script>
     <script src="/node_modules/popper.js/dist/popper.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <!--
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    -->
+
 </body>
 
 </html>
