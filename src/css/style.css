@@ -1,34 +1,67 @@
 body {
-  background: #ffffff;
+    background: #ffffff;
 }
 
 #banner {
-  background-image: url(../assets/banner_pizza.png);
-  background-size: cover;
+    background-image: url(../assets/banner_pizza.png);
+    background-size: cover;
 }
 
 .h-text {
-  padding: 10%;
+    padding: 10%;
 }
 
 .my-header .my-navbar {
-  background: rgba(0, 0, 0, 0.8) !important;
+    background: rgba(0, 0, 0, 0.8) !important;
 }
 
 #slide {
-  padding: 5% 0% 5% 0%;
-  background: #cfcfcf;
+    padding: 5% 0% 5% 0%;
+    background: #cfcfcf;
 }
 
 .slidesSite img {
-  border: 5px solid  white;
-  box-shadow: 1px 1px 4px black;
+    border: 5px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+#fotos {
+    background: #cfcfcf;
+}
+
+#video {
+    background: #cfcfcf;
+}
+
+#contato {
+    background: #cfcfcf;
+}
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 /*
-.my-navbar{
-  background-color: transparent !important;
+.info {
+    align-items: center;
+    justify-content: center;
 }*/
+
+/*
+  .my-navbar{
+    background-color: transparent !important;
+  }*/
 /*
 #legenda-banner {
   position: absolute;
@@ -38,13 +71,11 @@ body {
   height: 100%;
   text-align: center;
 }
-
 #banner {
   position: absolute;
   z-index: -22;
   top: 0;
 }
-
 .my-header .my-navbar {
   background: rgba(0, 0, 0, 0.8) !important;
 }*/
